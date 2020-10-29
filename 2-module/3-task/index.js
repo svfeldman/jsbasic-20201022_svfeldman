@@ -1,15 +1,15 @@
 let calculator = {
   // ваш код
   read(a, b) {
-    x = a;
-    y = b;
-    return x, y;
+    this.a = a;
+    this.b = b;
+    return a, b;
   },
   sum() {
-    return x + y;
+    return this.a + this.b;
   },
   mul() {
-    return x * y;
+    return this.a * this.b;
   },
 };
 
