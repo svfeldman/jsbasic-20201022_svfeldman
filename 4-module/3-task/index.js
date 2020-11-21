@@ -6,6 +6,7 @@ const THIRD_COLUMN = 3;
  * Метод устанавливает необходимые по условию аттрибуты таблице
  * @param {Element} table
  */
+//* убил 15 часов на попытку решить задачу, не вышло...
 function highlight(table) {
   const actions = {
     [THIRD_COLUMN]: (root, td) => {
