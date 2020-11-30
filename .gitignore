@@ -140,6 +140,7 @@ teacher.karma.conf.js
 
 .DS_Store
 .vscode
+.jshintrc
 
 teacher*
 
